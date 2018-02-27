@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+    	<meta name="format-detection" content="telephone=no,email=no" />
+		<title>404</title>
+		<style type="text/css">
+			button{
+				background-color:#3C9FFB;
+				border: 1px solid #3C9FFB;
+				border-radius: 4px;
+			    color: #ffffff;
+			    padding: 15px 10px;
+			    text-align: center;
+			    text-decoration: none;
+			    display: inline-block;
+			    font-size: 16px;			   
+			}
+		</style>
+	</head>
+	<body background="404.png"style=" background-repeat:no-repeat ;background-size:100% 100%; background-attachment:fixed;" >
+		<div id="" style="text-align:center;margin:450px 0 0 0;">
+			
+			<a id="notFound">
+				<button >重新加载</button>
+			</a>
+		</div>
+			
+		</div>
+	</body>
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+	<script>
+	
+		function getQueryString(name){
+		     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+		     var r = window.location.search.substr(1).match(reg);
+		     if(r!=null)return  unescape(r[2]); return null;
+		}
+		var resload=getQueryString('resload');
+		$("#notFound").attr('href',resload);
+	</script>
+</html>

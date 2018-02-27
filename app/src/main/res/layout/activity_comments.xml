@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray">
+    <include
+        android:id="@+id/comments_title"
+        layout="@layout/include_titlebar"/>
+    <LinearLayout
+        android:id="@+id/comments_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingTop="20dp"
+        android:paddingBottom="27.3dp"
+        android:paddingLeft="20dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/comments_title">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/comments_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               >
+            </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/comments_rl">
+        <Button
+            android:id="@+id/comments_confirm"
+            android:layout_width="281dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/comfirm"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</RelativeLayout>

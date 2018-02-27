@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_share_entry"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/share_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="分享文本" />
+
+    <Button
+        android:id="@+id/share_picture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="分享图片" />
+
+    <Button
+        android:id="@+id/share_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="分享视频" />
+
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="red_1">#E52237</color>
+    <color name="black">#000000</color>
+    <color name="yellow">#FFF000</color>
+    <color name="gray">#F0F0F0</color>
+    <color name="gray_2">#E7E7E7</color>
+    <color name="black_1">#333333</color>
+    <color name="black_2">#999999</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="orange_1">#FCA658</color>
+    <color name="orange_2">#FFBA75</color>
+    <color name="orange_3">#FFF1E6</color>
+    <color name="orange_4">#FFC99F</color>
+    <color name="gray_3">#666666</color>
+    <color name="black_3">#767676</color>
+    <color name="gray_4">#dddddd</color>
+    <color name="blue_1">#1C67F1</color>
+    <color name="blue_2">#6691d1</color>
+    <color name="blue_3">#BEE6FC</color>
+
+</resources>

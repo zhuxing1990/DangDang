@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash">
+        <!--<include-->
+            <!--android:id="@+id/personal_titleBar"-->
+            <!--layout="@layout/include_titlebar"-->
+            <!--/>-->
+        <!--<Button-->
+            <!--android:id="@+id/personal_back"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="#F0F8FF"-->
+            <!--android:text="&#060; 返回"-->
+            <!--android:textColor="#8F8F94"-->
+            <!--android:paddingLeft="15px"-->
+            <!--android:fontFamily="sans-serif"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:visibility="gone"-->
+            <!--android:textStyle="normal"-->
+            <!--android:textAppearance="@style/TextAppearance.AppCompat"/>-->
+        <WebView
+            android:id="@+id/personal_webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layerType="software">
+
+        </WebView>
+        <com.hnshilin.ddwallet.view.CircularProgress
+            android:id="@+id/personal_progress"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"/>
+</RelativeLayout>
